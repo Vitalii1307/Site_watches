@@ -1,0 +1,31 @@
+.shopping-container {
+    width: 80%;
+    height: 97vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(241, 241, 241);
+}
+.shopping-element__name {
+    padding: 15px;
+    font-weight: bold;
+}
+.shopping-element__price {
+    padding: 15px;
+    color: brown;
+}
+.shopping__close {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(../img/close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}
